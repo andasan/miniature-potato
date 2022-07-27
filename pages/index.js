@@ -31,6 +31,7 @@ function App() {
           <Model />
           <Environment preset="city" />
         </Suspense>
+        <OrbitControls autoRotate />
       </Canvas>
     </div>
   );
